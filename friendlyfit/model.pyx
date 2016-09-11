@@ -183,7 +183,7 @@ class Model:
         pool = MPIPool(loadbalance=True)
 
         if pool.is_master():
-            print('{} dimensions in problem.'.format(ndim), flush=True)
+            print('{} dimensions in problem.'.format(ndim))
         else:
             pool.wait()
             sys.exit(0)
@@ -200,7 +200,7 @@ class Model:
                 sampler.sample(
                     p0, iterations=iterations), total=iterations):
             # pass
-            print([max(x) for x in lnprob], flush=True)
+            print([max(x) for x in lnprob])
         pool.close()
 
         return (p0, p0)
