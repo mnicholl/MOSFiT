@@ -42,19 +42,19 @@
         "kind":"parameter",
         "value":100,
         "class":"parameter",
-        "latex":"T_{\\minr}\\,{\\rm (K)}"
+        "latex":"T_{\\rm minr}\\,{\\rm (K)}"
     },
     "temperature_blue":{
         "kind":"parameter",
         "value":100,
         "class":"parameter",
-        "latex":"T_{\\minb}\\,{\\rm (K)}"
+        "latex":"T_{\\rm minb}\\,{\\rm (K)}"
     },
     "temperature_purple":{
         "kind":"parameter",
         "value":100,
         "class":"parameter",
-        "latex":"T_{\\minp}\\,{\\rm (K)}"
+        "latex":"T_{\\rm minp}\\,{\\rm (K)}"
     },
     "kappa_red":{
         "kind":"parameter",
